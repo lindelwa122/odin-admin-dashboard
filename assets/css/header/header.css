@@ -22,6 +22,7 @@ button {
 header {
   background-color: yellowgreen;
   display: grid;
+  column-gap: 15px;
   grid-column: 2 / -1;
   grid-template: 1fr 1.5fr / 2fr 1fr;
   padding: 20px 40px;
