@@ -1,0 +1,38 @@
+.sidebar {
+    background-color: tomato;
+    grid-row: 1 / -1;
+    font-size: 1.2rem;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li,
+  .logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  li {
+    margin-bottom: 15px;
+  }
+  
+  li:last-child {
+    margin-bottom: 0;
+  }
+  
+  nav img {
+    width: clamp(20px, 9%, 50px);
+  }
+  
+  .logo-wrapper img {
+    width: clamp(50px, 15%, 150px);
+  }

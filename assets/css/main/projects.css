@@ -1,0 +1,47 @@
+.line {
+  background-color: orangered;
+  height: 100%;
+  width: 2%;
+}
+
+.interactions {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+}
+
+.interactions img {
+  width: clamp(20px, 3%, 50px);
+}
+
+.projects {
+  grid-row: 1 / -1;
+}
+
+.projects .card {
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex: 1 1 250px;
+  min-height: 200px;
+  overflow: hidden;
+}
+
+.projects .card > .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 15px;
+  width: 98%;
+}
+
+.projects .card h3 {
+  margin: 0;
+}
+
+.projects > .content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}

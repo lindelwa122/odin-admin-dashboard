@@ -1,0 +1,23 @@
+@import url(announcements.css);
+@import url(projects.css);
+@import url(trending.css);
+
+.announcements .content,
+.trending .content {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+main {
+  background-color: lime;
+  column-gap: 15px;
+  display: grid;
+  grid-template: repeat(2, auto) / 2.5fr 1fr;
+  padding: 30px 20px;
+  row-gap: 25px;
+}
+
+main h2 {
+  margin-top: 0;
+}

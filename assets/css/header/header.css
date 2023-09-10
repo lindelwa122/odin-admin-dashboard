@@ -1,0 +1,53 @@
+.account {
+  align-items: center;
+  display: flex;
+  gap: 15px;
+  justify-content: flex-end;
+}
+
+button {
+  background-color: cadetblue;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  padding: 10px 25px;
+}
+
+.buttons-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  background-color: yellowgreen;
+  display: grid;
+  grid-column: 2 / -1;
+  grid-template: 1fr 1.5fr / 2fr 1fr;
+  padding: 20px 40px;
+}
+
+input[type="search"] {
+  background-color: rgb(223, 215, 215);
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+}
+
+.profile {
+  align-items: center;
+  display: flex;
+  gap: 15px;
+}
+
+.profile h1 {
+  margin: 0;
+}
+
+.search-wrapper {
+  align-items: center;
+  display: flex;
+  gap: 15px;
+}
