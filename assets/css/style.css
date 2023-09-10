@@ -12,6 +12,17 @@ header {
   grid-column: 2 / -1;
 }
 
+.icon {
+  width: clamp(20px, 3%, 50px);
+}
+
+.profile-img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: goldenrod;
+}
+
 .sidebar {
   background-color: tomato;
   grid-row: 1 / -1;
