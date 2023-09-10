@@ -12,6 +12,10 @@ header {
   grid-column: 2 / -1;
 }
 
+.icon img {
+  width: clamp(20px, 9%, 50px);
+}
+
 .sidebar {
   background-color: tomato;
   grid-row: 1 / -1;
