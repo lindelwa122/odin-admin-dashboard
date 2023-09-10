@@ -6,7 +6,7 @@
 }
 
 button {
-  background-color: cadetblue;
+  background-color: var(--primary-clr);
   border: none;
   border-radius: 20px;
   color: #fff;
@@ -20,8 +20,9 @@ button {
 }
 
 header {
-  background-color: yellowgreen;
+  background-color: var(--main-clr);
   display: grid;
+  color: var(--text-clr);
   column-gap: 15px;
   grid-column: 2 / -1;
   grid-template: 1fr 1.5fr / 2fr 1fr;
@@ -29,7 +30,7 @@ header {
 }
 
 input[type="search"] {
-  background-color: rgb(223, 215, 215);
+  background-color: var(--soft-bg-clr);
   border: none;
   border-radius: 20px;
   outline: none;

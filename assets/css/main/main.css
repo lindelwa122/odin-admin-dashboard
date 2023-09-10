@@ -4,13 +4,14 @@
 
 .announcements .content,
 .trending .content {
-  background-color: #fff;
+  background-color: var(--main-clr);
   border-radius: 5px;
   padding: 20px;
 }
 
 main {
-  background-color: lime;
+  background-color: var(--soft-bg-clr);
+  color: var(--text-clr);
   column-gap: 15px;
   display: grid;
   grid-template: repeat(2, auto) / 2.5fr 1fr;

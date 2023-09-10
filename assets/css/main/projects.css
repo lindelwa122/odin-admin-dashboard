@@ -1,5 +1,5 @@
 .line {
-  background-color: orangered;
+  background-color: var(--secondary-clr);
   height: 100%;
   width: 2%;
 }
@@ -19,7 +19,7 @@
 }
 
 .projects .card {
-  background-color: #fff;
+  background-color: var(--main-clr);
   border-radius: 5px;
   display: flex;
   flex: 1 1 250px;

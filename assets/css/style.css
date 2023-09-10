@@ -2,6 +2,14 @@
 @import url(sidebar/sidebar.css);
 @import url(main/main.css);
 
+:root {
+  --primary-clr: #96C291;
+  --secondary-clr: #FFDBAA;
+  --soft-bg-clr: #F4EEEE;
+  --main-clr: #fff;
+  --text-clr: #212529;
+}
+
 * {
   box-sizing: border-box;
 }
