@@ -17,6 +17,9 @@ header {
   grid-row: 1 / -1;
   font-size: 1.2rem;
   padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 ul {
@@ -25,8 +28,17 @@ ul {
   padding: 0;
 }
 
-.icon img {
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+nav img {
   width: clamp(20px, 9%, 50px);
+}
+
+.logo-wrapper img {
+  width: clamp(50px, 15%, 150px);
 }
 
 main {
