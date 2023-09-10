@@ -142,7 +142,7 @@ main > div {
   gap: 20px;
 }
 
-.card {
+.projects .card {
   flex: 1 1 250px;
   border: 1px solid;
   border-radius: 5px;
@@ -152,7 +152,7 @@ main > div {
   overflow: hidden;
 }
 
-.card > .content {
+.projects .card > .content {
   padding: 20px 15px;
   display: flex;
   flex-direction: column;
