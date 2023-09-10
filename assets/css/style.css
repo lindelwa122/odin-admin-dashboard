@@ -135,16 +135,39 @@ main > div {
   grid-row: 1 / -1;
 }
 
-.projects .content {
+.projects > .content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 20px;
 }
 
-.projects .content > div {
-  flex-basis: 350px;
+.card {
+  flex: 1 1 250px;
   border: 1px solid;
+  border-radius: 5px;
+  background-color: #fff;
+  min-height: 200px;
+  display: flex;
+  overflow: hidden;
+}
+
+.card > .content {
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 98%;
+}
+
+.line {
+  height: 100%;
+  width: 2%;
+  background-color: orangered;
+}
+
+.projects .card h3 {
+  margin: 0;
 }
 
 .trending {
@@ -174,9 +197,13 @@ main > div {
 .interactions {
   display: flex;
   justify-content: flex-end;
-  gap: 10px;
+  gap: 20px;
 }
 
 .interactions img {
   width: clamp(20px, 3%, 50px);
+}
+
+main h2 {
+  margin-top: 0;
 }
