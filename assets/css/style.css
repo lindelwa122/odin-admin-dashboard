@@ -1,0 +1,22 @@
+html, body {
+  min-height: 100vh;
+}
+
+body {
+  display: grid;
+  grid-template: minmax(150px, 1fr) 5fr / 1fr 4fr;
+}
+
+header {
+  background-color: yellowgreen;
+  grid-column: 2 / -1;
+}
+
+.sidebar {
+  background-color: tomato;
+  grid-row: 1 / -1;
+}
+
+main {
+  background-color: lime;
+}
