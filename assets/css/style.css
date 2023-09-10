@@ -19,8 +19,52 @@ header {
   padding: 20px 40px;
 }
 
-header > div {
-  border: 1px solid;
+.search-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+}
+
+input[type=search] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  background-color: rgb(223, 215, 215);
+  
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.profile h1 {
+  margin: 0;
+}
+
+.buttons-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  background-color: cadetblue;
+  padding: 10px 25px;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
 }
 
 .icon {
