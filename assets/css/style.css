@@ -2,6 +2,10 @@ html, body {
   min-height: 100vh;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   display: grid;
   grid-template: minmax(150px, 1fr) 5fr / 1fr 4fr;
@@ -12,6 +16,11 @@ header {
   grid-column: 2 / -1;
   display: grid;
   grid-template: 1fr 1.5fr / 2fr 1fr;
+  padding: 20px 40px;
+}
+
+header > div {
+  border: 1px solid;
 }
 
 .icon {
