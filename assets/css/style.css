@@ -19,6 +19,12 @@ header {
   padding: 15px;
 }
 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .icon img {
   width: clamp(20px, 9%, 50px);
 }
