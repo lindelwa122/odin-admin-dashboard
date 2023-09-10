@@ -160,6 +160,7 @@ main > div {
 
 .trending .username {
   align-self: center;
+  font-weight: 600;
 }
 
 .trending .content > div > * {
