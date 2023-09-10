@@ -119,4 +119,22 @@ nav img {
 
 main {
   background-color: lime;
+  /* height: 100%; */
+  display: grid;
+  grid-template: 1fr 1fr / 2.5fr 1fr;
+  padding: 30px 20px;
+  column-gap: 15px;
+  row-gap: 25px;
+}
+
+main > div {
+  border: 1px solid;
+}
+
+.projects {
+  grid-row: 1 / -1;
+}
+
+.trending {
+  grid-column: 2 / -1;
 }
