@@ -135,6 +135,18 @@ main > div {
   grid-row: 1 / -1;
 }
 
+.projects .content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.projects .content > div {
+  flex-basis: 350px;
+  border: 1px solid;
+}
+
 .trending {
   grid-column: 2 / -1;
 }
