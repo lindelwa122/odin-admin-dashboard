@@ -10,6 +10,8 @@ body {
 header {
   background-color: yellowgreen;
   grid-column: 2 / -1;
+  display: grid;
+  grid-template: 1fr 1.5fr / 2fr 1fr;
 }
 
 .icon {
