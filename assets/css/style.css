@@ -207,3 +207,14 @@ main > div {
 main h2 {
   margin-top: 0;
 }
+
+.announcements .content {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  border: 1px solid #000;
+}
+
+.announcements h3 {
+  margin: 0;
+}
