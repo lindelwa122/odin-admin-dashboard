@@ -120,7 +120,7 @@ nav img {
 main {
   background-color: lime;
   display: grid;
-  grid-template: 1fr 1fr / 2.5fr 1fr;
+  grid-template: repeat(2, auto) / 2.5fr 1fr;
   padding: 30px 20px;
   column-gap: 15px;
   row-gap: 25px;
