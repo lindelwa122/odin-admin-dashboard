@@ -28,9 +28,19 @@ ul {
   padding: 0;
 }
 
+li,
 .logo-wrapper {
   display: flex;
   align-items: center;
+  gap: 15px;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+li:last-child {
+  margin-bottom: 0;
 }
 
 nav img {
