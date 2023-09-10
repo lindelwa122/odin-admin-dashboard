@@ -8,7 +8,7 @@ html, body {
 
 body {
   display: grid;
-  grid-template: minmax(150px, 1fr) 5fr / 1fr 4fr;
+  grid-template: 180px auto / 1fr 4fr;
 }
 
 header {
@@ -208,6 +208,7 @@ main h2 {
   margin-top: 0;
 }
 
+.trending .content,
 .announcements .content {
   background-color: #fff;
   border-radius: 5px;
