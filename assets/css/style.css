@@ -119,16 +119,11 @@ nav img {
 
 main {
   background-color: lime;
-  /* height: 100%; */
   display: grid;
   grid-template: 1fr 1fr / 2.5fr 1fr;
   padding: 30px 20px;
   column-gap: 15px;
   row-gap: 25px;
-}
-
-main > div {
-  border: 1px solid;
 }
 
 .projects {
@@ -144,7 +139,6 @@ main > div {
 
 .projects .card {
   flex: 1 1 250px;
-  border: 1px solid;
   border-radius: 5px;
   background-color: #fff;
   min-height: 200px;
@@ -178,16 +172,11 @@ main > div {
   display: grid;
   grid-template: 1fr 1fr / 1fr 3fr;
   margin-bottom: 10px;
-  border: 1px solid;
 }
 
 .trending .username {
   align-self: center;
   font-weight: 600;
-}
-
-.trending .content > div > * {
-  border: 1px solid #000;
 }
 
 .trending .profile-img {
@@ -213,7 +202,6 @@ main h2 {
   background-color: #fff;
   border-radius: 5px;
   padding: 20px;
-  border: 1px solid #000;
 }
 
 .announcements h3 {
