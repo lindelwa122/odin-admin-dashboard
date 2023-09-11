@@ -22,6 +22,7 @@ For a live preview click [here](https://lindelwa122.github.io/odin-admin-dashboa
 ## What I Learned
 
 - Learned how to effectively use **grid** and **flexbox** together to create awesome layouts.
+- Learned about `:root`, CSS variables and how to implement dark mode.
 
 ## Cool Features
 
