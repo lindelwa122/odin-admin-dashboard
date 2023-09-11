@@ -41,6 +41,11 @@ input[type="search"] {
   border-radius: 20px;
   outline: none;
   padding: 10px;
+  transition: width 2s;
+  width: max(100px, 20%);
+}
+
+input[type="search"]:focus {
   width: 100%;
 }
 
