@@ -3,6 +3,7 @@
 }
 
 .trending .content > div {
+  column-gap: 10px;
   display: grid;
   grid-template: 1fr 1fr / 1fr 3fr;
   margin-bottom: 10px;
