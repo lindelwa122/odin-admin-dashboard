@@ -1,12 +1,12 @@
 .sidebar {
   background-color: var(--primary-clr);
   color: var(--text-clr);
-  grid-row: 1 / -1;
-  font-size: 1.2rem;
-  padding: 15px;
   display: flex;
   flex-direction: column;
   gap: 40px;
+  grid-row: 1 / -1;
+  font-size: 1.2rem;
+  padding: 15px;
 }
 
 ul {
@@ -17,8 +17,8 @@ ul {
 
 li,
 .logo-wrapper {
-  display: flex;
   align-items: center;
+  display: flex;
   gap: 15px;
 }
 
