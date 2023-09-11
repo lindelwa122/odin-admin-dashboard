@@ -1,3 +1,11 @@
+.announcements .content > div:first-child > h3 {
+  margin-top: 0;
+}
+
 .announcements h3 {
-  margin: 0;
+  margin-bottom: 0;
+}
+
+.announcements p {
+  margin-top: 5px;
 }
