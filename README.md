@@ -1,17 +1,14 @@
-![Banner logo](assets/images/banner.png)
+<img src="assets/images/banner.png" alt="Banner logo" width="100%">
 
-<div style="text-align: center">
+<div style="display: flex; justify-content: center; gap: 5px; margin: 15px;">
 
-![Flexbox skills banner](https://img.shields.io/badge/skills_applied-flexbox-blue)
-![Grid skills banner](https://img.shields.io/badge/skills_applied-grid-purple)
+<img src="https://img.shields.io/badge/skills_applied-flexbox-blue" alt="Flexbox skills banner">
 
-</div>
-
-<div style="text-align: center">
-
-An admin dashboard built using **Flexbox** and **Grid**.
+<img src="https://img.shields.io/badge/skills_applied-grid-purple" alt="Grid skills banner">
 
 </div>
+
+<p style="text-align: center">An admin dashboard built using <strong>Flexbox</strong> and <strong>Grid</strong><p>
 
 ## Overview
 
