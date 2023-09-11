@@ -26,6 +26,7 @@ button {
 
 header {
   background-color: var(--main-clr);
+  box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.5);
   display: grid;
   color: var(--text-clr);
   column-gap: 15px;

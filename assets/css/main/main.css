@@ -6,11 +6,11 @@
 .trending .content {
   background-color: var(--main-clr);
   border-radius: 5px;
+  box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.2);
   padding: 20px;
 }
 
 main {
-  background-color: var(--soft-bg-clr);
   color: var(--text-clr);
   column-gap: 15px;
   display: grid;

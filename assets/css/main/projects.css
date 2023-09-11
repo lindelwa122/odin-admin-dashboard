@@ -21,6 +21,7 @@
 .projects .card {
   background-color: var(--main-clr);
   border-radius: 5px;
+  box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.2);
   display: flex;
   flex: 1 1 250px;
   min-height: 200px;

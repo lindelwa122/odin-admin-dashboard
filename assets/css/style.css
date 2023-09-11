@@ -16,6 +16,7 @@
 }
 
 body {
+  background-color: var(--soft-bg-clr);
   display: grid;
   font-family: 'Roboto', sans-serif;
   grid-template: 180px auto / 1fr 4fr;
