@@ -27,7 +27,6 @@ For a live preview click [here](https://lindelwa122.github.io/odin-admin-dashboa
 ## Cool Features
 
 - Hover over the icons, buttons, and input field to see some of the cool effects I added.
-
 - Depending on your OS theme settings the website will appear in dark or light mode.
 
 ## Credits
@@ -36,7 +35,7 @@ For a live preview click [here](https://lindelwa122.github.io/odin-admin-dashboa
 * The images used were taken from [Unsplash](https://unsplash.com) and the artists are:
     * [Alexander Hipp](https://unsplash.com/@alexanderhipp)
     * [Jimmy Fermin](https:/unsplash.com/@jimmyferminphotography)
-    * [Judith Ejike](https://unsplash.com/judithwealth)
+    * [Judith Ejike](https://unsplash.com/j@udithwealth)
     * [Amir Seilsepour](https://unsplash.com/@amiresel)
     * [Kashayar Kouchpeydeh](https://unsplash.com/@kouchpeydeh)
 
