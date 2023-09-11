@@ -12,9 +12,14 @@
   width: 20%;
 }
 
-/* .sidebar img {
-  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(235deg) brightness(103%) contrast(96%);;
-} */
+.sidebar img {
+  cursor: pointer;
+  transition: transform 1s;
+}
+
+.sidebar img:hover {
+  transform: rotate(360deg) scale(1.3);
+}
 
 ul {
   list-style: none;

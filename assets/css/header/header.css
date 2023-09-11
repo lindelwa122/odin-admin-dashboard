@@ -15,7 +15,14 @@ button {
   border: none;
   border-radius: 20px;
   color: #fff;
+  cursor: pointer;
   padding: 10px 25px;
+  transition: all 1s;
+}
+
+button:hover {
+  background-color: var(--secondary-clr); 
+  border-radius: 0;
 }
 
 .buttons-wrapper {
@@ -33,6 +40,15 @@ header {
   grid-column: 2 / -1;
   grid-template: 1fr 1.5fr / 2fr 1fr;
   padding: 20px 40px;
+}
+
+header img:not(.profile-img) {
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+header img:not(.profile-img):hover {
+  transform: translateX(-20px);
 }
 
 input[type="search"] {
